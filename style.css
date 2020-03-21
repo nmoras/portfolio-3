@@ -1,0 +1,52 @@
+.header{
+    margin: 1rem 0;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+}
+.header-intro{
+    line-height: 3.5rem;
+    font-size: 35px;
+}
+p, h2, h3, h4, h5, a, li{
+    font-family: monospace;
+} 
+/* div{
+    border:1px solid black;
+} */
+.pr-img{
+    height:180px
+}
+.section{
+    margin-bottom: 5rem;
+}
+li{
+    list-style-type: none;
+}
+.skill-title{
+    font-weight: bold;
+    padding-bottom:0.5rem;
+}
+.pr-link{
+    font-size:8px;
+
+}
+.tag-btn{
+    font-size:8px;
+}
+/* .container{
+    background: blue;
+} */
+/* <section>
+<div class="row  justify-content-center">
+    <div class="col-lg-2">
+        <p>aaaa</p>
+    </div>
+    <div class="col-lg-8">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <p>zzzz</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section> */
