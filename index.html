@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="icon" type="image/png" href="assets/happy-person-raising-one-hand_1f64b.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -12,13 +13,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body">
-    <div class="container-fluid container">
+    <!-- <script>
+        let i = 0;
+        let txt = 'Hi. I am Norma. I am a digital marketing professional with expertise in Search Engine Optimization. As an SEO expert I worked with web developers and I always wondered, Wish! I could build something like that. ABRAKADABRA! Here I am a full stack web developer making a shift to a new career.';
+        let speed = 60;
+        
+        $( window ).on( "load", typeWriter )
+        function typeWriter() {
+        $("#container").addClass('hide');    
+        
+        if (i < txt.length) {
+            document.querySelector("#section-main").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        };
+        setTimeout(homePage, 23000)
+        
+        };  
+        function homePage(){
+            $("#section-main").hide();  
+            $("#container").removeClass('hide');  
+            
+        };  
+    </script>     -->
+    <div class="section-main" id="section-main">
+        
+
+        
+    </div>
+    <div class="container-fluid" id="container">
         <section class="header">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row justify-content-between">
                         <div class="col-lg-6">
-                            <h2>Hello! </h2>
+                            <h2>Hello! <img class="comp-icon" src="assets/happy-person-raising-one-hand_1f64b.png"> </h2>
                         </div>
                         <div class="row">
                             <div class="col-lg-4">
@@ -34,8 +63,14 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col-lg-10">
-                            <h2 class="p-2 header-intro">I'm <b>Norma</b> a full-stack developer in making with a keen interest in functionality and web performance.</h2>
-                            <h4 class="p-2">get in touch: <span>normamoras@gmail.com</span></h4>
+                            <div class="row">
+                                <div class="col-lg-12 p-4">
+                                    <h1 class="header-intro">I'm <b>Norma</b> a full-stack developer in making with a keen interest in functionality and web performance. <img class="comp-icon" src="assets/computer.png"></h1>
+                                </div>
+                                <div class="col-lg-10">
+                                    <h4 class="p-2">get in touch: <span>normamoras@gmail.com</span></h4>
+                                </div>
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -131,10 +166,10 @@
                                 </div>
                                 <div class="col-lg-5">
                                     <b>API Project</b>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro molestiae dolore magni cumque, quae excepturi delectus possimus odit modi doloremque laborum. </p><a href="http://">Github</a> <a href="http://">Heroku</a>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis porro molestiae dolore magni cumque, quae excepturi delectus possimus odit modi doloremque laborum. <a href="http://">Github</a> <a href="http://">Heroku</a></p>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center pt-2">
                                 <div class="col-lg-10 align-self-end">
                                     <button class="tag-btn">javascript</button>
                                     <button class="tag-btn">jquery</button>
@@ -142,17 +177,17 @@
                                 </div>
                             </div>     
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 pr-block">
                             <div class="row justify-content-center mt-4">
                                 <div class="col-lg-5">
                                     <img class="pr-img" src="assets/fitness-app.png" alt="">
                                 </div>
                                 <div class="col-lg-5">
                                     <b>MVC Project</b>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit asperiores dignissimos commodi dolorum aperiam rem cupiditate porro, ratione eius corporis minima, officia, aliquid ex ipsum reiciendis est at iste repellat?</p></p><a href="http://">Github</a> <a href="http://">Heroku</a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit asperiores dignissimos commodi dolorum aperiam rem cupiditate porro, ratione eius corporis minima, officia, aliquid ex ipsum reiciendis est at iste repellat?<a href="http://">Github</a> <a href="http://">Heroku</a></p>
                                 </div>
                             </div>     
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center pt-2">
                                 <div class="col-lg-10 align-self-end">
                                     <button class="tag-btn">javascript</button>
                                     <button class="tag-btn">jquery</button>
@@ -175,6 +210,7 @@
                 <div class="row pt-5">
                     <div class="col-lg-12 text-center">
                         <p>Norma Moras <span class="highlight">©2020</span> </p>
+                        <p class="flaticon">Icon made by Pixel perfect from www.flaticon.com</p>
                     </div>
                 </div> 
                 <div class="row p-3 justify-content-center">

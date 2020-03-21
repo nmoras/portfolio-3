@@ -6,6 +6,8 @@
 .header-intro{
     line-height: 3.5rem;
     font-size: 35px;
+    padding: 2rem 0;
+    font-weight: normal;
 }
 p, h2, h3, h4, h5, a, li{
     font-family: monospace;
@@ -22,17 +24,60 @@ p, h2, h3, h4, h5, a, li{
 li{
     list-style-type: none;
 }
-.skill-title{
+.section-title{
     font-weight: bold;
     padding-bottom:0.5rem;
+    color: blueviolet;
 }
 .pr-link{
     font-size:8px;
 
 }
 .tag-btn{
-    font-size:8px;
+    font-size:12px;
+    background-color: blueviolet;
+    
+    border-style: none;
+    width: 4rem;
 }
+.body{
+    background: whitesmoke;
+}
+.pr-block{
+    margin-top:1.5rem;
+}
+.hide{
+    display:none;
+}
+#section-main{  
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    color:black;
+    font-family: monospace;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    height: 1;
+    font-size: 2em;
+    transition: 1s ease; 
+    background-color: whitesmoke;
+    
+}
+#container{
+    background: whitesmoke;
+}
+.comp-icon{
+    height:50px;
+}
+.flaticon{
+    color:white;
+}
+/* .link-btn{
+    background-color: none;
+    border: 1px solid blueviolet;
+    z-index: -1;
+    
+} */
 /* .container{
     background: blue;
 } */
