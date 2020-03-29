@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>NORMA MORAS FUll-Stack Developer with SEO Experties - TORONTO</title>
     <link rel="icon" type="image/png" href="assets/happy-person-raising-one-hand_1f64b.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -13,34 +13,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body">
-    <!-- <script>
-        let i = 0;
-        let txt = 'Hi. I am Norma. I am a digital marketing professional with expertise in Search Engine Optimization. As an SEO expert I worked with web developers and I always wondered, Wish! I could build something like that. ABRAKADABRA! Here I am a full stack web developer making a shift to a new career.';
-        let speed = 60;
-        
-        $( window ).on( "load", typeWriter )
-        function typeWriter() {
-        $("#container").addClass('hide');    
-        
-        if (i < txt.length) {
-            document.querySelector("#section-main").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        };
-        setTimeout(homePage, 23000)
-        
-        };  
-        function homePage(){
-            $("#section-main").hide();  
-            $("#container").removeClass('hide');  
-            
-        };  
-    </script>     -->
-    <div class="section-main" id="section-main">
-        
+    <script>
+            let i = 0;
+            let txt = 'Hi. I am Norma, a digital marketing professional with expertise in Search Engine Optimization. As an SEO expert I worked with web developers and I always wondered, Wish! I could build something like that. ABRAKADABRA! Here I am a full stack web developer making a shift to a new career.';
+            let speed = 60;
+            let timeoutID;
 
+            // $("#section-main").addClass('hide');
+            // let user = localStorage.getItem('user');
+            // if(user == 'viewed' ){
+            //     console.log(user);
+            //     homePage(); 
+            // } ;
+            // else {
+            //     typeWriter();
+            // }   
+            // document.getElementById('skipType').addEventListener('click', homePage);
+            // $('#skipType').on('click', homePage);
+            // function typeWriter() {
+            //     localStorage.setItem('user', 'viewed');
+            //     // $("#section-main").removeClass('hide');
+            //     $("#container").addClass('hide');    
+            
+            // if (i < txt.length) {
+            //     document.querySelector("#section-main").innerHTML += txt.charAt(i);
+            //     i++;
+            //     setTimeout(typeWriter, speed);
+            // };
+            //     setTimeout(homePage, 20000)
+            
+            // };  
+
+            $( window ).on( "load", typeWriter )
+            function typeWriter() {
+
+                $("#section-intro").removeClass('hide');
+                $("#container").addClass('hide');
+                localStorage.setItem('user', 'viewed');
+
+                if (i < txt.length) {
+                    document.querySelector("#section-main").innerHTML += txt.charAt(i);
+                    i++;
+                    timeoutID =   setTimeout(typeWriter, speed);
+                };
+                
+                setTimeout(homePage, 23000)
+            };
         
+            function homePage(){
+                $("#section-intro").hide();  
+                $("#container").removeClass('hide');  
+                // clearTimeout(); 
+            };  
+
+            function skipIntro(){
+                clearTimeout(timeoutID);
+                homePage(); 
+            };             
+    </script>   
+    <div class="row" id="section-intro">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 section-main" id="section-main"></div>   
+            </div>  
+            <div class="row justify-content-center">
+                <div class="col-2 text-center" >
+                    <button id="skipType" href="index.html" onclick="skipIntro()">Skip Intro</button>        
+            </div>
+                   
+            </div>            
+        </div> 
     </div>
+    
+    
     <div class="container-fluid" id="container">
         <section class="header">
             <div class="row justify-content-center">
@@ -49,17 +94,20 @@
                         <div class="col-lg-6">
                             <h2>Hello! <img class="comp-icon" src="assets/happy-person-raising-one-hand_1f64b.png"> </h2>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <a class="nav-item nav-link" href="https://twitter.com/normamoras"><i class="fa fa-twitter-square"></i></a>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-2">
+                                    <a class="nav-item nav-link" href="https://twitter.com/normamoras"><i class="fa fa-twitter-square"></i></a>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-2">
+                                    <a class="nav-item nav-link" href="https://github.com/nmoras"><i class="fa fa-github-square"></i></a>
+                                </div>    
+                                <!-- <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div> -->
+                                <div class="col-lg-4 col-md-4 col-sm-2">   
+                                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/normamoras/"><i class="fa fa-linkedin"></i></i></a>
+                                </div>
                             </div>
-                            <div class="col-lg-4">
-                                <a class="nav-item nav-link" href="https://github.com/nmoras"><i class="fa fa-github-square"></i></a>
-                            </div>    
-                             <div class="col-lg-4">   
-                                <a class="nav-item nav-link" href="https://www.linkedin.com/in/normamoras/"><i class="fa fa-linkedin"></i></i></a>
-                            </div>
-                        </div>
+                        </div>        
                     </div>
                     <div class="row mt-4">
                         <div class="col-lg-10">

@@ -57,11 +57,17 @@ li{
     font-family: monospace;
     margin: 0 auto;
     letter-spacing: .15em;
-    height: 1;
+    height: 100%;
     font-size: 2em;
     transition: 1s ease; 
     background-color: whitesmoke;
     
+   
+}
+#section-intro{
+    position: relative; 
+    background-color: whitesmoke;
+  
 }
 #container{
     background: whitesmoke;
@@ -72,6 +78,17 @@ li{
 .flaticon{
     color:white;
 }
+#skipType{
+    position: absolute;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    border: none;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
 /* .link-btn{
     background-color: none;
     border: 1px solid blueviolet;
