@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 Personal web development portfolio
 
 # Technologies & Frameworks Used
