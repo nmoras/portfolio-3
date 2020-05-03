@@ -1,0 +1,72 @@
+.header{
+    margin: 1rem 0;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+}
+.header-intro{
+    line-height: 3.5rem;
+    font-size: 35px;
+    padding: 2rem 0;
+    font-weight: normal;
+   
+}
+h1, h2, h3, h4, h5, h6, a, li{
+    font-family: montserrat;
+    color: white;
+} 
+html, body{
+    
+
+    min-height: 100%;
+    
+}
+.sidebar{
+    background-color: rgb(140, 25, 25, 0.85);
+    opacity: 85%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+.bgimg{
+    overflow: hidden;
+    background-image: url("./assets/leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    
+}
+.avatar{
+width: 80px;
+border: 1px solid  #AF2222;
+display: block;
+opacity: none;
+}
+.btnhome{
+    background-color:#8c1919;
+    color: white; 
+    border-style: none;
+    margin: 0 20px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.btnhome:hover{
+    background: white;
+    color: #8c1919;
+   
+}
+.contentblock{
+    margin-top: 5rem;
+}
+.introcls{
+    color:white;
+    font-size: 30px
+}
+.boldtxt{
+    font-weight: bold;
+}
+.boldtxt:hover{
+    color:#8c1919;
+}
+/* div{
+    border: 1px solid white;
+} */

@@ -8,10 +8,14 @@
     font-size: 35px;
     padding: 2rem 0;
     font-weight: normal;
+   
 }
 p, h2, h3, h4, h5, a, li{
     font-family: monospace;
 } 
+h2{
+    color: #AF2222;
+}
 /* div{
     border:1px solid black;
 } */
@@ -27,7 +31,7 @@ li{
 .section-title{
     font-weight: bold;
     padding-bottom:0.5rem;
-    color: blueviolet;
+    color: #AF2222;;
 }
 .pr-link{
     font-size:8px;
@@ -35,8 +39,8 @@ li{
 }
 .tag-btn{
     font-size:12px;
-    background-color: blueviolet;
-    
+    background-color: #AF2222;;
+    color: white;
     border-style: none;
     width: 4rem;
 }
@@ -81,13 +85,18 @@ li{
 #skipType{
     position: absolute;
     padding: 5px 10px;
-    background-color: blueviolet;
+    background-color:#AF2222;;
     border: none;
     display: block;
     margin: 0 auto;
+    color: white;
 
 
 }
+div{
+    border: 1px solid black;
+}
+
 
 /* .link-btn{
     background-color: none;
