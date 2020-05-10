@@ -14,9 +14,6 @@ h1, h2, h3, h4, h5, h6, a, li{
     font-family: montserrat;
     
 }
-h6{
-    color: white;
-}
 .nav-link {
     color: whitesmoke;
 } 
@@ -85,8 +82,12 @@ a.pr-link:hover{
     color: white; 
     border: none;
 }
+div{
+    border: 1px solid black;
+}
 .pr-img{
-    height:180px;
+    height:300px;
+    margin-top: 2rem;
 }
 a.btnmore{
     color: #8c1919;
